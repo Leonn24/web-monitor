@@ -1,0 +1,30 @@
+{
+  "name": "web-monitoring",
+  "version": "1.0.0",
+  "description": "Sitemonitoring",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Leonn24/web-monitor.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "Leon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonn24/web-monitor/issues"
+  },
+  "homepage": "https://github.com/Leonn24/web-monitor#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ts-node": "^10.9.1"
+  }
+}
